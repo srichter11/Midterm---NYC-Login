@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55A145561C8F9C4E00F2F0D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145551C8F9C4E00F2F0D5 /* AppDelegate.swift */; };
+		55A145581C8F9C4E00F2F0D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145571C8F9C4E00F2F0D5 /* ViewController.swift */; };
+		55A1455B1C8F9C4E00F2F0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A145591C8F9C4E00F2F0D5 /* Main.storyboard */; };
+		55A1455D1C8F9C4E00F2F0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A1455C1C8F9C4E00F2F0D5 /* Assets.xcassets */; };
+		55A145601C8F9C4E00F2F0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A1455E1C8F9C4E00F2F0D5 /* LaunchScreen.storyboard */; };
+		55A1456B1C8F9C4F00F2F0D5 /* Midterm___NYC_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A1456A1C8F9C4F00F2F0D5 /* Midterm___NYC_LoginTests.swift */; };
+		55A145761C8F9C4F00F2F0D5 /* Midterm___NYC_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145751C8F9C4F00F2F0D5 /* Midterm___NYC_LoginUITests.swift */; };
+		55A145841C8F9E7A00F2F0D5 /* nycskyline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145831C8F9E7A00F2F0D5 /* nycskyline.jpg */; };
+		55A145861C8FA96600F2F0D5 /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145851C8FA96600F2F0D5 /* UserClass.swift */; };
+		55A145881C8FB9AB00F2F0D5 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145871C8FB9AB00F2F0D5 /* AccountViewController.swift */; };
+		55A1458C1C971DFB00F2F0D5 /* NeighborhoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A1458B1C971DFB00F2F0D5 /* NeighborhoodViewController.swift */; };
+		55A145911C9728EB00F2F0D5 /* safetyicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A1458D1C9728EB00F2F0D5 /* safetyicon.png */; };
+		55A145921C9728EB00F2F0D5 /* transiticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A1458E1C9728EB00F2F0D5 /* transiticon.png */; };
+		55A145931C9728EB00F2F0D5 /* trashicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A1458F1C9728EB00F2F0D5 /* trashicon.png */; };
+		55A145941C9728EB00F2F0D5 /* govicon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145901C9728EB00F2F0D5 /* govicon.jpeg */; };
+		55A145961C97325400F2F0D5 /* settings-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A145951C97325400F2F0D5 /* settings-50.png */; };
+		55A145981C97365100F2F0D5 /* Parliament-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A145971C97365100F2F0D5 /* Parliament-50.png */; };
+		55A1459A1C97369A00F2F0D5 /* Subway Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A145991C97369A00F2F0D5 /* Subway Filled-50.png */; };
+		55A1459D1C97373300F2F0D5 /* Police Badge-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A1459B1C97373300F2F0D5 /* Police Badge-50.png */; };
+		55A1459E1C97373300F2F0D5 /* Waste-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A1459C1C97373300F2F0D5 /* Waste-50.png */; };
+		55A145A01C97378300F2F0D5 /* Subway-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A1459F1C97378300F2F0D5 /* Subway-50.png */; };
+		55A145A21C97380200F2F0D5 /* User Groups-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A145A11C97380200F2F0D5 /* User Groups-50.png */; };
+		55A145A41C9764F300F2F0D5 /* levin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145A31C9764F300F2F0D5 /* levin.jpg */; };
+		55A145A61C9767F600F2F0D5 /* bill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145A51C9767F600F2F0D5 /* bill.jpg */; };
+		55A145A81C97685800F2F0D5 /* Brownstones1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145A71C97685800F2F0D5 /* Brownstones1.jpeg */; };
+		55A145AA1C97692300F2F0D5 /* bill2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145A91C97692300F2F0D5 /* bill2.jpg */; };
+		55A145AE1C97736C00F2F0D5 /* nyc-subway-map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145AD1C97736C00F2F0D5 /* nyc-subway-map.jpg */; };
+		55A145B01C977A6100F2F0D5 /* SafetyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145AF1C977A6100F2F0D5 /* SafetyViewController.swift */; };
+		55A145B21C977E5C00F2F0D5 /* police.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145B11C977E5C00F2F0D5 /* police.jpeg */; };
+		55A145B41C977EE900F2F0D5 /* water.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145B31C977EE900F2F0D5 /* water.jpeg */; };
+		55A145B61C97857C00F2F0D5 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145B51C97857C00F2F0D5 /* CommunityViewController.swift */; };
+		55A145B81C978B7500F2F0D5 /* SanitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145B71C978B7500F2F0D5 /* SanitationViewController.swift */; };
+		55A145BA1C978BC400F2F0D5 /* lemons.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145B91C978BC400F2F0D5 /* lemons.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55A145671C8F9C4F00F2F0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A1454A1C8F9C4E00F2F0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A145511C8F9C4E00F2F0D5;
+			remoteInfo = "Midterm - NYC Login";
+		};
+		55A145721C8F9C4F00F2F0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A1454A1C8F9C4E00F2F0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A145511C8F9C4E00F2F0D5;
+			remoteInfo = "Midterm - NYC Login";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55A145521C8F9C4E00F2F0D5 /* Midterm - NYC Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midterm - NYC Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A145551C8F9C4E00F2F0D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55A145571C8F9C4E00F2F0D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55A1455A1C8F9C4E00F2F0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55A1455C1C8F9C4E00F2F0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55A1455F1C8F9C4E00F2F0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55A145611C8F9C4F00F2F0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A145661C8F9C4F00F2F0D5 /* Midterm - NYC LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Midterm - NYC LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A1456A1C8F9C4F00F2F0D5 /* Midterm___NYC_LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Midterm___NYC_LoginTests.swift"; sourceTree = "<group>"; };
+		55A1456C1C8F9C4F00F2F0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A145711C8F9C4F00F2F0D5 /* Midterm - NYC LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Midterm - NYC LoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A145751C8F9C4F00F2F0D5 /* Midterm___NYC_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Midterm___NYC_LoginUITests.swift"; sourceTree = "<group>"; };
+		55A145771C8F9C4F00F2F0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A145831C8F9E7A00F2F0D5 /* nycskyline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nycskyline.jpg; sourceTree = "<group>"; };
+		55A145851C8FA96600F2F0D5 /* UserClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
+		55A145871C8FB9AB00F2F0D5 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		55A1458B1C971DFB00F2F0D5 /* NeighborhoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeighborhoodViewController.swift; sourceTree = "<group>"; };
+		55A1458D1C9728EB00F2F0D5 /* safetyicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safetyicon.png; sourceTree = "<group>"; };
+		55A1458E1C9728EB00F2F0D5 /* transiticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transiticon.png; sourceTree = "<group>"; };
+		55A1458F1C9728EB00F2F0D5 /* trashicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trashicon.png; sourceTree = "<group>"; };
+		55A145901C9728EB00F2F0D5 /* govicon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = govicon.jpeg; sourceTree = "<group>"; };
+		55A145951C97325400F2F0D5 /* settings-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-50.png"; sourceTree = "<group>"; };
+		55A145971C97365100F2F0D5 /* Parliament-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parliament-50.png"; sourceTree = "<group>"; };
+		55A145991C97369A00F2F0D5 /* Subway Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Subway Filled-50.png"; sourceTree = "<group>"; };
+		55A1459B1C97373300F2F0D5 /* Police Badge-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Police Badge-50.png"; sourceTree = "<group>"; };
+		55A1459C1C97373300F2F0D5 /* Waste-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Waste-50.png"; sourceTree = "<group>"; };
+		55A1459F1C97378300F2F0D5 /* Subway-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Subway-50.png"; sourceTree = "<group>"; };
+		55A145A11C97380200F2F0D5 /* User Groups-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User Groups-50.png"; sourceTree = "<group>"; };
+		55A145A31C9764F300F2F0D5 /* levin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = levin.jpg; sourceTree = "<group>"; };
+		55A145A51C9767F600F2F0D5 /* bill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bill.jpg; sourceTree = "<group>"; };
+		55A145A71C97685800F2F0D5 /* Brownstones1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brownstones1.jpeg; sourceTree = "<group>"; };
+		55A145A91C97692300F2F0D5 /* bill2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bill2.jpg; sourceTree = "<group>"; };
+		55A145AD1C97736C00F2F0D5 /* nyc-subway-map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nyc-subway-map.jpg"; sourceTree = "<group>"; };
+		55A145AF1C977A6100F2F0D5 /* SafetyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafetyViewController.swift; sourceTree = "<group>"; };
+		55A145B11C977E5C00F2F0D5 /* police.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = police.jpeg; sourceTree = "<group>"; };
+		55A145B31C977EE900F2F0D5 /* water.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = water.jpeg; sourceTree = "<group>"; };
+		55A145B51C97857C00F2F0D5 /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		55A145B71C978B7500F2F0D5 /* SanitationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SanitationViewController.swift; sourceTree = "<group>"; };
+		55A145B91C978BC400F2F0D5 /* lemons.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lemons.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55A1454F1C8F9C4E00F2F0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A145631C8F9C4F00F2F0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A1456E1C8F9C4F00F2F0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55A145491C8F9C4E00F2F0D5 = {
+			isa = PBXGroup;
+			children = (
+				55A145541C8F9C4E00F2F0D5 /* Midterm - NYC Login */,
+				55A145691C8F9C4F00F2F0D5 /* Midterm - NYC LoginTests */,
+				55A145741C8F9C4F00F2F0D5 /* Midterm - NYC LoginUITests */,
+				55A145531C8F9C4E00F2F0D5 /* Products */,
+				55A145A71C97685800F2F0D5 /* Brownstones1.jpeg */,
+			);
+			sourceTree = "<group>";
+		};
+		55A145531C8F9C4E00F2F0D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55A145521C8F9C4E00F2F0D5 /* Midterm - NYC Login.app */,
+				55A145661C8F9C4F00F2F0D5 /* Midterm - NYC LoginTests.xctest */,
+				55A145711C8F9C4F00F2F0D5 /* Midterm - NYC LoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55A145541C8F9C4E00F2F0D5 /* Midterm - NYC Login */ = {
+			isa = PBXGroup;
+			children = (
+				55A145551C8F9C4E00F2F0D5 /* AppDelegate.swift */,
+				55A145571C8F9C4E00F2F0D5 /* ViewController.swift */,
+				55A145591C8F9C4E00F2F0D5 /* Main.storyboard */,
+				55A145B71C978B7500F2F0D5 /* SanitationViewController.swift */,
+				55A145B51C97857C00F2F0D5 /* CommunityViewController.swift */,
+				55A145AF1C977A6100F2F0D5 /* SafetyViewController.swift */,
+				55A1458B1C971DFB00F2F0D5 /* NeighborhoodViewController.swift */,
+				55A145871C8FB9AB00F2F0D5 /* AccountViewController.swift */,
+				55A145851C8FA96600F2F0D5 /* UserClass.swift */,
+				55A1455C1C8F9C4E00F2F0D5 /* Assets.xcassets */,
+				55A145951C97325400F2F0D5 /* settings-50.png */,
+				55A1455E1C8F9C4E00F2F0D5 /* LaunchScreen.storyboard */,
+				55A145611C8F9C4F00F2F0D5 /* Info.plist */,
+				55A145971C97365100F2F0D5 /* Parliament-50.png */,
+				55A145991C97369A00F2F0D5 /* Subway Filled-50.png */,
+				55A1458D1C9728EB00F2F0D5 /* safetyicon.png */,
+				55A1458E1C9728EB00F2F0D5 /* transiticon.png */,
+				55A145A31C9764F300F2F0D5 /* levin.jpg */,
+				55A145A11C97380200F2F0D5 /* User Groups-50.png */,
+				55A1459B1C97373300F2F0D5 /* Police Badge-50.png */,
+				55A1459C1C97373300F2F0D5 /* Waste-50.png */,
+				55A1458F1C9728EB00F2F0D5 /* trashicon.png */,
+				55A145B91C978BC400F2F0D5 /* lemons.jpeg */,
+				55A1459F1C97378300F2F0D5 /* Subway-50.png */,
+				55A145A51C9767F600F2F0D5 /* bill.jpg */,
+				55A145B11C977E5C00F2F0D5 /* police.jpeg */,
+				55A145901C9728EB00F2F0D5 /* govicon.jpeg */,
+				55A145AD1C97736C00F2F0D5 /* nyc-subway-map.jpg */,
+				55A145A91C97692300F2F0D5 /* bill2.jpg */,
+				55A145B31C977EE900F2F0D5 /* water.jpeg */,
+				55A145831C8F9E7A00F2F0D5 /* nycskyline.jpg */,
+			);
+			path = "Midterm - NYC Login";
+			sourceTree = "<group>";
+		};
+		55A145691C8F9C4F00F2F0D5 /* Midterm - NYC LoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				55A1456A1C8F9C4F00F2F0D5 /* Midterm___NYC_LoginTests.swift */,
+				55A1456C1C8F9C4F00F2F0D5 /* Info.plist */,
+			);
+			path = "Midterm - NYC LoginTests";
+			sourceTree = "<group>";
+		};
+		55A145741C8F9C4F00F2F0D5 /* Midterm - NYC LoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55A145751C8F9C4F00F2F0D5 /* Midterm___NYC_LoginUITests.swift */,
+				55A145771C8F9C4F00F2F0D5 /* Info.plist */,
+			);
+			path = "Midterm - NYC LoginUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55A145511C8F9C4E00F2F0D5 /* Midterm - NYC Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A1457A1C8F9C4F00F2F0D5 /* Build configuration list for PBXNativeTarget "Midterm - NYC Login" */;
+			buildPhases = (
+				55A1454E1C8F9C4E00F2F0D5 /* Sources */,
+				55A1454F1C8F9C4E00F2F0D5 /* Frameworks */,
+				55A145501C8F9C4E00F2F0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Midterm - NYC Login";
+			productName = "Midterm - NYC Login";
+			productReference = 55A145521C8F9C4E00F2F0D5 /* Midterm - NYC Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55A145651C8F9C4F00F2F0D5 /* Midterm - NYC LoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A1457D1C8F9C4F00F2F0D5 /* Build configuration list for PBXNativeTarget "Midterm - NYC LoginTests" */;
+			buildPhases = (
+				55A145621C8F9C4F00F2F0D5 /* Sources */,
+				55A145631C8F9C4F00F2F0D5 /* Frameworks */,
+				55A145641C8F9C4F00F2F0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A145681C8F9C4F00F2F0D5 /* PBXTargetDependency */,
+			);
+			name = "Midterm - NYC LoginTests";
+			productName = "Midterm - NYC LoginTests";
+			productReference = 55A145661C8F9C4F00F2F0D5 /* Midterm - NYC LoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55A145701C8F9C4F00F2F0D5 /* Midterm - NYC LoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A145801C8F9C4F00F2F0D5 /* Build configuration list for PBXNativeTarget "Midterm - NYC LoginUITests" */;
+			buildPhases = (
+				55A1456D1C8F9C4F00F2F0D5 /* Sources */,
+				55A1456E1C8F9C4F00F2F0D5 /* Frameworks */,
+				55A1456F1C8F9C4F00F2F0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A145731C8F9C4F00F2F0D5 /* PBXTargetDependency */,
+			);
+			name = "Midterm - NYC LoginUITests";
+			productName = "Midterm - NYC LoginUITests";
+			productReference = 55A145711C8F9C4F00F2F0D5 /* Midterm - NYC LoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55A1454A1C8F9C4E00F2F0D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sophia Richter";
+				TargetAttributes = {
+					55A145511C8F9C4E00F2F0D5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					55A145651C8F9C4F00F2F0D5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 55A145511C8F9C4E00F2F0D5;
+					};
+					55A145701C8F9C4F00F2F0D5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 55A145511C8F9C4E00F2F0D5;
+					};
+				};
+			};
+			buildConfigurationList = 55A1454D1C8F9C4E00F2F0D5 /* Build configuration list for PBXProject "Midterm - NYC Login" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55A145491C8F9C4E00F2F0D5;
+			productRefGroup = 55A145531C8F9C4E00F2F0D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55A145511C8F9C4E00F2F0D5 /* Midterm - NYC Login */,
+				55A145651C8F9C4F00F2F0D5 /* Midterm - NYC LoginTests */,
+				55A145701C8F9C4F00F2F0D5 /* Midterm - NYC LoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55A145501C8F9C4E00F2F0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A145921C9728EB00F2F0D5 /* transiticon.png in Resources */,
+				55A145B21C977E5C00F2F0D5 /* police.jpeg in Resources */,
+				55A145841C8F9E7A00F2F0D5 /* nycskyline.jpg in Resources */,
+				55A145AE1C97736C00F2F0D5 /* nyc-subway-map.jpg in Resources */,
+				55A145911C9728EB00F2F0D5 /* safetyicon.png in Resources */,
+				55A1459E1C97373300F2F0D5 /* Waste-50.png in Resources */,
+				55A145601C8F9C4E00F2F0D5 /* LaunchScreen.storyboard in Resources */,
+				55A1455D1C8F9C4E00F2F0D5 /* Assets.xcassets in Resources */,
+				55A145A41C9764F300F2F0D5 /* levin.jpg in Resources */,
+				55A145941C9728EB00F2F0D5 /* govicon.jpeg in Resources */,
+				55A1459A1C97369A00F2F0D5 /* Subway Filled-50.png in Resources */,
+				55A145BA1C978BC400F2F0D5 /* lemons.jpeg in Resources */,
+				55A1455B1C8F9C4E00F2F0D5 /* Main.storyboard in Resources */,
+				55A145931C9728EB00F2F0D5 /* trashicon.png in Resources */,
+				55A145961C97325400F2F0D5 /* settings-50.png in Resources */,
+				55A145A21C97380200F2F0D5 /* User Groups-50.png in Resources */,
+				55A145AA1C97692300F2F0D5 /* bill2.jpg in Resources */,
+				55A145A61C9767F600F2F0D5 /* bill.jpg in Resources */,
+				55A145A81C97685800F2F0D5 /* Brownstones1.jpeg in Resources */,
+				55A145A01C97378300F2F0D5 /* Subway-50.png in Resources */,
+				55A145B41C977EE900F2F0D5 /* water.jpeg in Resources */,
+				55A145981C97365100F2F0D5 /* Parliament-50.png in Resources */,
+				55A1459D1C97373300F2F0D5 /* Police Badge-50.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A145641C8F9C4F00F2F0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A1456F1C8F9C4F00F2F0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55A1454E1C8F9C4E00F2F0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A145B01C977A6100F2F0D5 /* SafetyViewController.swift in Sources */,
+				55A1458C1C971DFB00F2F0D5 /* NeighborhoodViewController.swift in Sources */,
+				55A145B81C978B7500F2F0D5 /* SanitationViewController.swift in Sources */,
+				55A145581C8F9C4E00F2F0D5 /* ViewController.swift in Sources */,
+				55A145561C8F9C4E00F2F0D5 /* AppDelegate.swift in Sources */,
+				55A145881C8FB9AB00F2F0D5 /* AccountViewController.swift in Sources */,
+				55A145861C8FA96600F2F0D5 /* UserClass.swift in Sources */,
+				55A145B61C97857C00F2F0D5 /* CommunityViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A145621C8F9C4F00F2F0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A1456B1C8F9C4F00F2F0D5 /* Midterm___NYC_LoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A1456D1C8F9C4F00F2F0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A145761C8F9C4F00F2F0D5 /* Midterm___NYC_LoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55A145681C8F9C4F00F2F0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55A145511C8F9C4E00F2F0D5 /* Midterm - NYC Login */;
+			targetProxy = 55A145671C8F9C4F00F2F0D5 /* PBXContainerItemProxy */;
+		};
+		55A145731C8F9C4F00F2F0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55A145511C8F9C4E00F2F0D5 /* Midterm - NYC Login */;
+			targetProxy = 55A145721C8F9C4F00F2F0D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55A145591C8F9C4E00F2F0D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A1455A1C8F9C4E00F2F0D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55A1455E1C8F9C4E00F2F0D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A1455F1C8F9C4E00F2F0D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55A145781C8F9C4F00F2F0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55A145791C8F9C4F00F2F0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55A1457B1C8F9C4F00F2F0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Midterm - NYC Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SMR.Midterm---NYC-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55A1457C1C8F9C4F00F2F0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Midterm - NYC Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SMR.Midterm---NYC-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55A1457E1C8F9C4F00F2F0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Midterm - NYC LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SMR.Midterm---NYC-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Midterm - NYC Login.app/Midterm - NYC Login";
+			};
+			name = Debug;
+		};
+		55A1457F1C8F9C4F00F2F0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Midterm - NYC LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SMR.Midterm---NYC-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Midterm - NYC Login.app/Midterm - NYC Login";
+			};
+			name = Release;
+		};
+		55A145811C8F9C4F00F2F0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Midterm - NYC LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SMR.Midterm---NYC-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Midterm - NYC Login";
+			};
+			name = Debug;
+		};
+		55A145821C8F9C4F00F2F0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Midterm - NYC LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SMR.Midterm---NYC-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Midterm - NYC Login";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55A1454D1C8F9C4E00F2F0D5 /* Build configuration list for PBXProject "Midterm - NYC Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A145781C8F9C4F00F2F0D5 /* Debug */,
+				55A145791C8F9C4F00F2F0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A1457A1C8F9C4F00F2F0D5 /* Build configuration list for PBXNativeTarget "Midterm - NYC Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A1457B1C8F9C4F00F2F0D5 /* Debug */,
+				55A1457C1C8F9C4F00F2F0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A1457D1C8F9C4F00F2F0D5 /* Build configuration list for PBXNativeTarget "Midterm - NYC LoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A1457E1C8F9C4F00F2F0D5 /* Debug */,
+				55A1457F1C8F9C4F00F2F0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A145801C8F9C4F00F2F0D5 /* Build configuration list for PBXNativeTarget "Midterm - NYC LoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A145811C8F9C4F00F2F0D5 /* Debug */,
+				55A145821C8F9C4F00F2F0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55A1454A1C8F9C4E00F2F0D5 /* Project object */;
+}
