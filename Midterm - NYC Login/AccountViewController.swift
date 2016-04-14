@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Google
+import Firebase
+
 
 class AccountViewController: UIViewController {
 
@@ -19,7 +22,36 @@ class AccountViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-    }
+        super.viewDidLoad()
+        
+//        GIDSignIn.sharedInstance().delegate = self
+//        GIDSignIn.sharedInstance().uiDelegate = self
+//        GIDSignIn.sharedInstance().signInSilently()
+   }
+//    
+//    
+//// AUTHENTICATION SECTION
+//    
+//    
+//    let ref = Firebase(url:"https://mynyc.firebaseio.com")
+//    
+//    var auth: FAuthData?
+//    
+//    @IBAction func saveToFirebase() {
+//        
+//        let uid = auth!.uid
+//        
+//        let ref = Firebase(url:"https://mynyc.firebaseio.com/users/\(uid)")
+//        
+//        ref.setValue(nameTextField.text)
+//    }
+//    
+
+    
+    
+// ALERT SECTION
+    
+    
     func displayAlert (alertString: String) {
         let alert = UIAlertController(title: "Invalid", message: alertString, preferredStyle: UIAlertControllerStyle.Alert)
         self.presentViewController(alert, animated: true, completion: nil)

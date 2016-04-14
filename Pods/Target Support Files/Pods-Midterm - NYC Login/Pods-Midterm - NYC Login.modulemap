@@ -1,0 +1,6 @@
+framework module Pods_Midterm___NYC_Login {
+  umbrella header "Pods-Midterm - NYC Login-umbrella.h"
+
+  export *
+  module * { export * }
+}

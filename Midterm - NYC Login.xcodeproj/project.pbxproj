@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		553E0A791CBB46D900721FF7 /* FAQDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553E0A781CBB46D900721FF7 /* FAQDetailViewController.swift */; };
+		553E0A7D1CBEC0D700721FF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 553E0A7C1CBEC0D700721FF7 /* GoogleService-Info.plist */; };
+		553E0A7F1CBEE4AB00721FF7 /* MeetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553E0A7E1CBEE4AB00721FF7 /* MeetupViewController.swift */; };
+		553E0A811CBF357900721FF7 /* MeetupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553E0A801CBF357900721FF7 /* MeetupDetailViewController.swift */; };
 		55A145561C8F9C4E00F2F0D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145551C8F9C4E00F2F0D5 /* AppDelegate.swift */; };
 		55A145581C8F9C4E00F2F0D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145571C8F9C4E00F2F0D5 /* ViewController.swift */; };
 		55A1455B1C8F9C4E00F2F0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A145591C8F9C4E00F2F0D5 /* Main.storyboard */; };
@@ -40,6 +44,7 @@
 		55A145B61C97857C00F2F0D5 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145B51C97857C00F2F0D5 /* CommunityViewController.swift */; };
 		55A145B81C978B7500F2F0D5 /* SanitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145B71C978B7500F2F0D5 /* SanitationViewController.swift */; };
 		55A145BA1C978BC400F2F0D5 /* lemons.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145B91C978BC400F2F0D5 /* lemons.jpeg */; };
+		AE5E17AFBEC7B3714C9DAF12 /* Pods_Midterm___NYC_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA62C896110AAE5FA4A12145 /* Pods_Midterm___NYC_Login.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		553E0A781CBB46D900721FF7 /* FAQDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQDetailViewController.swift; sourceTree = "<group>"; };
+		553E0A7C1CBEC0D700721FF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		553E0A7E1CBEE4AB00721FF7 /* MeetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupViewController.swift; sourceTree = "<group>"; };
+		553E0A801CBF357900721FF7 /* MeetupDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupDetailViewController.swift; sourceTree = "<group>"; };
 		55A145521C8F9C4E00F2F0D5 /* Midterm - NYC Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midterm - NYC Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A145551C8F9C4E00F2F0D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55A145571C8F9C4E00F2F0D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +108,9 @@
 		55A145B51C97857C00F2F0D5 /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		55A145B71C978B7500F2F0D5 /* SanitationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SanitationViewController.swift; sourceTree = "<group>"; };
 		55A145B91C978BC400F2F0D5 /* lemons.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lemons.jpeg; sourceTree = "<group>"; };
+		64B93274142B99DA8088208F /* Pods-Midterm - NYC Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Midterm - NYC Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Midterm - NYC Login/Pods-Midterm - NYC Login.debug.xcconfig"; sourceTree = "<group>"; };
+		E45A972AE3C2490D3A11FBBA /* Pods-Midterm - NYC Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Midterm - NYC Login.release.xcconfig"; path = "Pods/Target Support Files/Pods-Midterm - NYC Login/Pods-Midterm - NYC Login.release.xcconfig"; sourceTree = "<group>"; };
+		FA62C896110AAE5FA4A12145 /* Pods_Midterm___NYC_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Midterm___NYC_Login.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5E17AFBEC7B3714C9DAF12 /* Pods_Midterm___NYC_Login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +147,8 @@
 				55A145741C8F9C4F00F2F0D5 /* Midterm - NYC LoginUITests */,
 				55A145531C8F9C4E00F2F0D5 /* Products */,
 				55A145A71C97685800F2F0D5 /* Brownstones1.jpeg */,
+				DC4B29B0A7037126C7C2E4DE /* Pods */,
+				73D974772DFF9BDCA86EF668 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,19 +165,23 @@
 		55A145541C8F9C4E00F2F0D5 /* Midterm - NYC Login */ = {
 			isa = PBXGroup;
 			children = (
+				55A145591C8F9C4E00F2F0D5 /* Main.storyboard */,
+				55A1455E1C8F9C4E00F2F0D5 /* LaunchScreen.storyboard */,
 				55A145551C8F9C4E00F2F0D5 /* AppDelegate.swift */,
 				55A145571C8F9C4E00F2F0D5 /* ViewController.swift */,
-				55A145591C8F9C4E00F2F0D5 /* Main.storyboard */,
-				55A145B71C978B7500F2F0D5 /* SanitationViewController.swift */,
+				55A145871C8FB9AB00F2F0D5 /* AccountViewController.swift */,
+				553E0A7E1CBEE4AB00721FF7 /* MeetupViewController.swift */,
+				553E0A801CBF357900721FF7 /* MeetupDetailViewController.swift */,
 				55A145B51C97857C00F2F0D5 /* CommunityViewController.swift */,
+				553E0A781CBB46D900721FF7 /* FAQDetailViewController.swift */,
+				55A145B71C978B7500F2F0D5 /* SanitationViewController.swift */,
 				55A145AF1C977A6100F2F0D5 /* SafetyViewController.swift */,
 				55A1458B1C971DFB00F2F0D5 /* NeighborhoodViewController.swift */,
-				55A145871C8FB9AB00F2F0D5 /* AccountViewController.swift */,
 				55A145851C8FA96600F2F0D5 /* UserClass.swift */,
+				55A145611C8F9C4F00F2F0D5 /* Info.plist */,
+				553E0A7C1CBEC0D700721FF7 /* GoogleService-Info.plist */,
 				55A1455C1C8F9C4E00F2F0D5 /* Assets.xcassets */,
 				55A145951C97325400F2F0D5 /* settings-50.png */,
-				55A1455E1C8F9C4E00F2F0D5 /* LaunchScreen.storyboard */,
-				55A145611C8F9C4F00F2F0D5 /* Info.plist */,
 				55A145971C97365100F2F0D5 /* Parliament-50.png */,
 				55A145991C97369A00F2F0D5 /* Subway Filled-50.png */,
 				55A1458D1C9728EB00F2F0D5 /* safetyicon.png */,
@@ -203,6 +222,23 @@
 			path = "Midterm - NYC LoginUITests";
 			sourceTree = "<group>";
 		};
+		73D974772DFF9BDCA86EF668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA62C896110AAE5FA4A12145 /* Pods_Midterm___NYC_Login.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC4B29B0A7037126C7C2E4DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64B93274142B99DA8088208F /* Pods-Midterm - NYC Login.debug.xcconfig */,
+				E45A972AE3C2490D3A11FBBA /* Pods-Midterm - NYC Login.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55A1457A1C8F9C4F00F2F0D5 /* Build configuration list for PBXNativeTarget "Midterm - NYC Login" */;
 			buildPhases = (
+				CE1098E112741CA9A36069C5 /* Check Pods Manifest.lock */,
 				55A1454E1C8F9C4E00F2F0D5 /* Sources */,
 				55A1454F1C8F9C4E00F2F0D5 /* Frameworks */,
 				55A145501C8F9C4E00F2F0D5 /* Resources */,
+				86A632BAF7F1052F5DBEB063 /* Embed Pods Frameworks */,
+				2E61B3D51367574E4EF041F9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -323,6 +362,7 @@
 				55A145931C9728EB00F2F0D5 /* trashicon.png in Resources */,
 				55A145961C97325400F2F0D5 /* settings-50.png in Resources */,
 				55A145A21C97380200F2F0D5 /* User Groups-50.png in Resources */,
+				553E0A7D1CBEC0D700721FF7 /* GoogleService-Info.plist in Resources */,
 				55A145AA1C97692300F2F0D5 /* bill2.jpg in Resources */,
 				55A145A61C9767F600F2F0D5 /* bill.jpg in Resources */,
 				55A145A81C97685800F2F0D5 /* Brownstones1.jpeg in Resources */,
@@ -349,6 +389,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E61B3D51367574E4EF041F9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Midterm - NYC Login/Pods-Midterm - NYC Login-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86A632BAF7F1052F5DBEB063 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Midterm - NYC Login/Pods-Midterm - NYC Login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE1098E112741CA9A36069C5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55A1454E1C8F9C4E00F2F0D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -357,10 +445,13 @@
 				55A145B01C977A6100F2F0D5 /* SafetyViewController.swift in Sources */,
 				55A1458C1C971DFB00F2F0D5 /* NeighborhoodViewController.swift in Sources */,
 				55A145B81C978B7500F2F0D5 /* SanitationViewController.swift in Sources */,
+				553E0A791CBB46D900721FF7 /* FAQDetailViewController.swift in Sources */,
 				55A145581C8F9C4E00F2F0D5 /* ViewController.swift in Sources */,
 				55A145561C8F9C4E00F2F0D5 /* AppDelegate.swift in Sources */,
 				55A145881C8FB9AB00F2F0D5 /* AccountViewController.swift in Sources */,
 				55A145861C8FA96600F2F0D5 /* UserClass.swift in Sources */,
+				553E0A811CBF357900721FF7 /* MeetupDetailViewController.swift in Sources */,
+				553E0A7F1CBEE4AB00721FF7 /* MeetupViewController.swift in Sources */,
 				55A145B61C97857C00F2F0D5 /* CommunityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +592,7 @@
 		};
 		55A1457B1C8F9C4F00F2F0D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B93274142B99DA8088208F /* Pods-Midterm - NYC Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Midterm - NYC Login/Info.plist";
@@ -512,6 +604,7 @@
 		};
 		55A1457C1C8F9C4F00F2F0D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45A972AE3C2490D3A11FBBA /* Pods-Midterm - NYC Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Midterm - NYC Login/Info.plist";

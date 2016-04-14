@@ -24,7 +24,8 @@ class SanitationViewController: UIViewController {
         view.addSubview(blurredEffectView)
         
         view.sendSubviewToBack(blurredEffectView)
-        view.sendSubviewToBack(imageView)    }
+        view.sendSubviewToBack(imageView)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
