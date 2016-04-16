@@ -22,12 +22,9 @@ class MeetupViewController: UIViewController, UITableViewDataSource, UITableView
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-        refreshControl = UIRefreshControl()
-        refreshControl?.addTarget(self, action: "getData", forControlEvents: .ValueChanged)
-        tableView.addSubview(refreshControl!)
+
         getData(zip)
         
-        // unrecognized selector is the refresh control 
         
         let imageView = UIImageView(image: UIImage(named: "water.jpeg"))
         imageView.frame = view.bounds
@@ -46,7 +43,6 @@ class MeetupViewController: UIViewController, UITableViewDataSource, UITableView
     
     var serviceInfo : [JSON] = []
     let placeholderImage = UIImage(named: "User Groups-50.png")
-    var refreshControl : UIRefreshControl?
 
     
 
@@ -59,7 +55,6 @@ class MeetupViewController: UIViewController, UITableViewDataSource, UITableView
                 //print(json["results"].arrayValue)
                 self.serviceInfo = json["results"].arrayValue
                 dispatch_async(dispatch_get_main_queue(), {
-                    self.refreshControl?.endRefreshing()
                     self.tableView.reloadData()})
             }
         }

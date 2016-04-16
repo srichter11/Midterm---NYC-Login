@@ -9,18 +9,6 @@
 import UIKit
 
 class NeighborhoodViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-
-    
-//    lazy var zipCode: String? = {
-//        NSUserDefaults.standardUserDefaults().synchronize()
-//    
-//        let defaults = NSUserDefaults.standardUserDefaults()
-//    
-//        let zip = defaults.stringForKey("zip_string")
-//    
-//        return zip
-//    
-//    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()

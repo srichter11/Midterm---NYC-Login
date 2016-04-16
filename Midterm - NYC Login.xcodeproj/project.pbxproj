@@ -14,6 +14,10 @@
 		553E0A7D1CBEC0D700721FF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 553E0A7C1CBEC0D700721FF7 /* GoogleService-Info.plist */; };
 		553E0A7F1CBEE4AB00721FF7 /* MeetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553E0A7E1CBEE4AB00721FF7 /* MeetupViewController.swift */; };
 		553E0A811CBF357900721FF7 /* MeetupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553E0A801CBF357900721FF7 /* MeetupDetailViewController.swift */; };
+		558E15B71CC1F80400B11D60 /* Marker-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 558E15B61CC1F80400B11D60 /* Marker-50.png */; };
+		558E15B91CC2087600B11D60 /* Hand Planting-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 558E15B81CC2087600B11D60 /* Hand Planting-50.png */; };
+		558E15BB1CC2095500B11D60 /* VacantLandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558E15BA1CC2095500B11D60 /* VacantLandViewController.swift */; };
+		558E15BD1CC21B9900B11D60 /* VisionZeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558E15BC1CC21B9900B11D60 /* VisionZeroViewController.swift */; };
 		55A145561C8F9C4E00F2F0D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145551C8F9C4E00F2F0D5 /* AppDelegate.swift */; };
 		55A145581C8F9C4E00F2F0D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145571C8F9C4E00F2F0D5 /* ViewController.swift */; };
 		55A1455D1C8F9C4E00F2F0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A1455C1C8F9C4E00F2F0D5 /* Assets.xcassets */; };
@@ -21,7 +25,6 @@
 		55A1456B1C8F9C4F00F2F0D5 /* Midterm___NYC_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A1456A1C8F9C4F00F2F0D5 /* Midterm___NYC_LoginTests.swift */; };
 		55A145761C8F9C4F00F2F0D5 /* Midterm___NYC_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145751C8F9C4F00F2F0D5 /* Midterm___NYC_LoginUITests.swift */; };
 		55A145841C8F9E7A00F2F0D5 /* nycskyline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145831C8F9E7A00F2F0D5 /* nycskyline.jpg */; };
-		55A145861C8FA96600F2F0D5 /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145851C8FA96600F2F0D5 /* UserClass.swift */; };
 		55A1458C1C971DFB00F2F0D5 /* NeighborhoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A1458B1C971DFB00F2F0D5 /* NeighborhoodViewController.swift */; };
 		55A145911C9728EB00F2F0D5 /* safetyicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A1458D1C9728EB00F2F0D5 /* safetyicon.png */; };
 		55A145921C9728EB00F2F0D5 /* transiticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A1458E1C9728EB00F2F0D5 /* transiticon.png */; };
@@ -43,7 +46,6 @@
 		55A145B21C977E5C00F2F0D5 /* police.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145B11C977E5C00F2F0D5 /* police.jpeg */; };
 		55A145B41C977EE900F2F0D5 /* water.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145B31C977EE900F2F0D5 /* water.jpeg */; };
 		55A145B61C97857C00F2F0D5 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145B51C97857C00F2F0D5 /* CommunityViewController.swift */; };
-		55A145B81C978B7500F2F0D5 /* SanitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145B71C978B7500F2F0D5 /* SanitationViewController.swift */; };
 		55A145BA1C978BC400F2F0D5 /* lemons.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145B91C978BC400F2F0D5 /* lemons.jpeg */; };
 		AE5E17AFBEC7B3714C9DAF12 /* Pods_Midterm___NYC_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA62C896110AAE5FA4A12145 /* Pods_Midterm___NYC_Login.framework */; };
 /* End PBXBuildFile section */
@@ -73,6 +75,10 @@
 		553E0A7C1CBEC0D700721FF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		553E0A7E1CBEE4AB00721FF7 /* MeetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupViewController.swift; sourceTree = "<group>"; };
 		553E0A801CBF357900721FF7 /* MeetupDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupDetailViewController.swift; sourceTree = "<group>"; };
+		558E15B61CC1F80400B11D60 /* Marker-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marker-50.png"; sourceTree = "<group>"; };
+		558E15B81CC2087600B11D60 /* Hand Planting-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hand Planting-50.png"; sourceTree = "<group>"; };
+		558E15BA1CC2095500B11D60 /* VacantLandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VacantLandViewController.swift; sourceTree = "<group>"; };
+		558E15BC1CC21B9900B11D60 /* VisionZeroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionZeroViewController.swift; sourceTree = "<group>"; };
 		55A145521C8F9C4E00F2F0D5 /* Midterm - NYC Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midterm - NYC Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A145551C8F9C4E00F2F0D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55A145571C8F9C4E00F2F0D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,7 +92,6 @@
 		55A145751C8F9C4F00F2F0D5 /* Midterm___NYC_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Midterm___NYC_LoginUITests.swift"; sourceTree = "<group>"; };
 		55A145771C8F9C4F00F2F0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55A145831C8F9E7A00F2F0D5 /* nycskyline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nycskyline.jpg; sourceTree = "<group>"; };
-		55A145851C8FA96600F2F0D5 /* UserClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
 		55A1458B1C971DFB00F2F0D5 /* NeighborhoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeighborhoodViewController.swift; sourceTree = "<group>"; };
 		55A1458D1C9728EB00F2F0D5 /* safetyicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safetyicon.png; sourceTree = "<group>"; };
 		55A1458E1C9728EB00F2F0D5 /* transiticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transiticon.png; sourceTree = "<group>"; };
@@ -108,7 +113,6 @@
 		55A145B11C977E5C00F2F0D5 /* police.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = police.jpeg; sourceTree = "<group>"; };
 		55A145B31C977EE900F2F0D5 /* water.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = water.jpeg; sourceTree = "<group>"; };
 		55A145B51C97857C00F2F0D5 /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
-		55A145B71C978B7500F2F0D5 /* SanitationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SanitationViewController.swift; sourceTree = "<group>"; };
 		55A145B91C978BC400F2F0D5 /* lemons.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lemons.jpeg; sourceTree = "<group>"; };
 		64B93274142B99DA8088208F /* Pods-Midterm - NYC Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Midterm - NYC Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Midterm - NYC Login/Pods-Midterm - NYC Login.debug.xcconfig"; sourceTree = "<group>"; };
 		E45A972AE3C2490D3A11FBBA /* Pods-Midterm - NYC Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Midterm - NYC Login.release.xcconfig"; path = "Pods/Target Support Files/Pods-Midterm - NYC Login/Pods-Midterm - NYC Login.release.xcconfig"; sourceTree = "<group>"; };
@@ -168,9 +172,11 @@
 			isa = PBXGroup;
 			children = (
 				550CE8E71CC063FE003CAD3D /* Main.storyboard */,
+				558E15BC1CC21B9900B11D60 /* VisionZeroViewController.swift */,
 				55A1455E1C8F9C4E00F2F0D5 /* LaunchScreen.storyboard */,
 				55A145551C8F9C4E00F2F0D5 /* AppDelegate.swift */,
 				550CE8EC1CC075E9003CAD3D /* ZipcodeInfo.swift */,
+				558E15BA1CC2095500B11D60 /* VacantLandViewController.swift */,
 				55A145571C8F9C4E00F2F0D5 /* ViewController.swift */,
 				550CE8EE1CC0A01F003CAD3D /* TrendingPlacesViewController.swift */,
 				55A1458B1C971DFB00F2F0D5 /* NeighborhoodViewController.swift */,
@@ -178,17 +184,17 @@
 				553E0A801CBF357900721FF7 /* MeetupDetailViewController.swift */,
 				55A145B51C97857C00F2F0D5 /* CommunityViewController.swift */,
 				553E0A781CBB46D900721FF7 /* FAQDetailViewController.swift */,
-				55A145B71C978B7500F2F0D5 /* SanitationViewController.swift */,
 				55A145AF1C977A6100F2F0D5 /* SafetyViewController.swift */,
-				55A145851C8FA96600F2F0D5 /* UserClass.swift */,
 				55A145611C8F9C4F00F2F0D5 /* Info.plist */,
 				553E0A7C1CBEC0D700721FF7 /* GoogleService-Info.plist */,
 				55A1455C1C8F9C4E00F2F0D5 /* Assets.xcassets */,
 				55A145951C97325400F2F0D5 /* settings-50.png */,
 				55A145971C97365100F2F0D5 /* Parliament-50.png */,
+				558E15B81CC2087600B11D60 /* Hand Planting-50.png */,
 				55A145991C97369A00F2F0D5 /* Subway Filled-50.png */,
 				55A1458D1C9728EB00F2F0D5 /* safetyicon.png */,
 				55A1458E1C9728EB00F2F0D5 /* transiticon.png */,
+				558E15B61CC1F80400B11D60 /* Marker-50.png */,
 				55A145A31C9764F300F2F0D5 /* levin.jpg */,
 				55A145A11C97380200F2F0D5 /* User Groups-50.png */,
 				55A1459B1C97373300F2F0D5 /* Police Badge-50.png */,
@@ -353,6 +359,7 @@
 				55A145B21C977E5C00F2F0D5 /* police.jpeg in Resources */,
 				55A145841C8F9E7A00F2F0D5 /* nycskyline.jpg in Resources */,
 				550CE8E91CC063FE003CAD3D /* Main.storyboard in Resources */,
+				558E15B71CC1F80400B11D60 /* Marker-50.png in Resources */,
 				55A145AE1C97736C00F2F0D5 /* nyc-subway-map.jpg in Resources */,
 				55A145911C9728EB00F2F0D5 /* safetyicon.png in Resources */,
 				55A1459E1C97373300F2F0D5 /* Waste-50.png in Resources */,
@@ -361,6 +368,7 @@
 				55A145A41C9764F300F2F0D5 /* levin.jpg in Resources */,
 				55A145941C9728EB00F2F0D5 /* govicon.jpeg in Resources */,
 				55A1459A1C97369A00F2F0D5 /* Subway Filled-50.png in Resources */,
+				558E15B91CC2087600B11D60 /* Hand Planting-50.png in Resources */,
 				55A145BA1C978BC400F2F0D5 /* lemons.jpeg in Resources */,
 				55A145931C9728EB00F2F0D5 /* trashicon.png in Resources */,
 				55A145961C97325400F2F0D5 /* settings-50.png in Resources */,
@@ -447,14 +455,14 @@
 			files = (
 				55A145B01C977A6100F2F0D5 /* SafetyViewController.swift in Sources */,
 				55A1458C1C971DFB00F2F0D5 /* NeighborhoodViewController.swift in Sources */,
-				55A145B81C978B7500F2F0D5 /* SanitationViewController.swift in Sources */,
 				553E0A791CBB46D900721FF7 /* FAQDetailViewController.swift in Sources */,
 				55A145581C8F9C4E00F2F0D5 /* ViewController.swift in Sources */,
 				55A145561C8F9C4E00F2F0D5 /* AppDelegate.swift in Sources */,
-				55A145861C8FA96600F2F0D5 /* UserClass.swift in Sources */,
 				553E0A811CBF357900721FF7 /* MeetupDetailViewController.swift in Sources */,
 				553E0A7F1CBEE4AB00721FF7 /* MeetupViewController.swift in Sources */,
 				550CE8ED1CC075E9003CAD3D /* ZipcodeInfo.swift in Sources */,
+				558E15BD1CC21B9900B11D60 /* VisionZeroViewController.swift in Sources */,
+				558E15BB1CC2095500B11D60 /* VacantLandViewController.swift in Sources */,
 				550CE8EF1CC0A01F003CAD3D /* TrendingPlacesViewController.swift in Sources */,
 				55A145B61C97857C00F2F0D5 /* CommunityViewController.swift in Sources */,
 			);
