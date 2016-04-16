@@ -7,20 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550CE8E91CC063FE003CAD3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550CE8E71CC063FE003CAD3D /* Main.storyboard */; };
+		550CE8ED1CC075E9003CAD3D /* ZipcodeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CE8EC1CC075E9003CAD3D /* ZipcodeInfo.swift */; };
+		550CE8EF1CC0A01F003CAD3D /* TrendingPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CE8EE1CC0A01F003CAD3D /* TrendingPlacesViewController.swift */; };
 		553E0A791CBB46D900721FF7 /* FAQDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553E0A781CBB46D900721FF7 /* FAQDetailViewController.swift */; };
 		553E0A7D1CBEC0D700721FF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 553E0A7C1CBEC0D700721FF7 /* GoogleService-Info.plist */; };
 		553E0A7F1CBEE4AB00721FF7 /* MeetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553E0A7E1CBEE4AB00721FF7 /* MeetupViewController.swift */; };
 		553E0A811CBF357900721FF7 /* MeetupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553E0A801CBF357900721FF7 /* MeetupDetailViewController.swift */; };
 		55A145561C8F9C4E00F2F0D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145551C8F9C4E00F2F0D5 /* AppDelegate.swift */; };
 		55A145581C8F9C4E00F2F0D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145571C8F9C4E00F2F0D5 /* ViewController.swift */; };
-		55A1455B1C8F9C4E00F2F0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A145591C8F9C4E00F2F0D5 /* Main.storyboard */; };
 		55A1455D1C8F9C4E00F2F0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A1455C1C8F9C4E00F2F0D5 /* Assets.xcassets */; };
 		55A145601C8F9C4E00F2F0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A1455E1C8F9C4E00F2F0D5 /* LaunchScreen.storyboard */; };
 		55A1456B1C8F9C4F00F2F0D5 /* Midterm___NYC_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A1456A1C8F9C4F00F2F0D5 /* Midterm___NYC_LoginTests.swift */; };
 		55A145761C8F9C4F00F2F0D5 /* Midterm___NYC_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145751C8F9C4F00F2F0D5 /* Midterm___NYC_LoginUITests.swift */; };
 		55A145841C8F9E7A00F2F0D5 /* nycskyline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55A145831C8F9E7A00F2F0D5 /* nycskyline.jpg */; };
 		55A145861C8FA96600F2F0D5 /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145851C8FA96600F2F0D5 /* UserClass.swift */; };
-		55A145881C8FB9AB00F2F0D5 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A145871C8FB9AB00F2F0D5 /* AccountViewController.swift */; };
 		55A1458C1C971DFB00F2F0D5 /* NeighborhoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A1458B1C971DFB00F2F0D5 /* NeighborhoodViewController.swift */; };
 		55A145911C9728EB00F2F0D5 /* safetyicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A1458D1C9728EB00F2F0D5 /* safetyicon.png */; };
 		55A145921C9728EB00F2F0D5 /* transiticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A1458E1C9728EB00F2F0D5 /* transiticon.png */; };
@@ -65,6 +66,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		550CE8E81CC063FE003CAD3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		550CE8EC1CC075E9003CAD3D /* ZipcodeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipcodeInfo.swift; sourceTree = "<group>"; };
+		550CE8EE1CC0A01F003CAD3D /* TrendingPlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingPlacesViewController.swift; sourceTree = "<group>"; };
 		553E0A781CBB46D900721FF7 /* FAQDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQDetailViewController.swift; sourceTree = "<group>"; };
 		553E0A7C1CBEC0D700721FF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		553E0A7E1CBEE4AB00721FF7 /* MeetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +76,6 @@
 		55A145521C8F9C4E00F2F0D5 /* Midterm - NYC Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midterm - NYC Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A145551C8F9C4E00F2F0D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55A145571C8F9C4E00F2F0D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		55A1455A1C8F9C4E00F2F0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55A1455C1C8F9C4E00F2F0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55A1455F1C8F9C4E00F2F0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55A145611C8F9C4F00F2F0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,7 +87,6 @@
 		55A145771C8F9C4F00F2F0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55A145831C8F9E7A00F2F0D5 /* nycskyline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nycskyline.jpg; sourceTree = "<group>"; };
 		55A145851C8FA96600F2F0D5 /* UserClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
-		55A145871C8FB9AB00F2F0D5 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		55A1458B1C971DFB00F2F0D5 /* NeighborhoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeighborhoodViewController.swift; sourceTree = "<group>"; };
 		55A1458D1C9728EB00F2F0D5 /* safetyicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safetyicon.png; sourceTree = "<group>"; };
 		55A1458E1C9728EB00F2F0D5 /* transiticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transiticon.png; sourceTree = "<group>"; };
@@ -165,18 +167,19 @@
 		55A145541C8F9C4E00F2F0D5 /* Midterm - NYC Login */ = {
 			isa = PBXGroup;
 			children = (
-				55A145591C8F9C4E00F2F0D5 /* Main.storyboard */,
+				550CE8E71CC063FE003CAD3D /* Main.storyboard */,
 				55A1455E1C8F9C4E00F2F0D5 /* LaunchScreen.storyboard */,
 				55A145551C8F9C4E00F2F0D5 /* AppDelegate.swift */,
+				550CE8EC1CC075E9003CAD3D /* ZipcodeInfo.swift */,
 				55A145571C8F9C4E00F2F0D5 /* ViewController.swift */,
-				55A145871C8FB9AB00F2F0D5 /* AccountViewController.swift */,
+				550CE8EE1CC0A01F003CAD3D /* TrendingPlacesViewController.swift */,
+				55A1458B1C971DFB00F2F0D5 /* NeighborhoodViewController.swift */,
 				553E0A7E1CBEE4AB00721FF7 /* MeetupViewController.swift */,
 				553E0A801CBF357900721FF7 /* MeetupDetailViewController.swift */,
 				55A145B51C97857C00F2F0D5 /* CommunityViewController.swift */,
 				553E0A781CBB46D900721FF7 /* FAQDetailViewController.swift */,
 				55A145B71C978B7500F2F0D5 /* SanitationViewController.swift */,
 				55A145AF1C977A6100F2F0D5 /* SafetyViewController.swift */,
-				55A1458B1C971DFB00F2F0D5 /* NeighborhoodViewController.swift */,
 				55A145851C8FA96600F2F0D5 /* UserClass.swift */,
 				55A145611C8F9C4F00F2F0D5 /* Info.plist */,
 				553E0A7C1CBEC0D700721FF7 /* GoogleService-Info.plist */,
@@ -349,6 +352,7 @@
 				55A145921C9728EB00F2F0D5 /* transiticon.png in Resources */,
 				55A145B21C977E5C00F2F0D5 /* police.jpeg in Resources */,
 				55A145841C8F9E7A00F2F0D5 /* nycskyline.jpg in Resources */,
+				550CE8E91CC063FE003CAD3D /* Main.storyboard in Resources */,
 				55A145AE1C97736C00F2F0D5 /* nyc-subway-map.jpg in Resources */,
 				55A145911C9728EB00F2F0D5 /* safetyicon.png in Resources */,
 				55A1459E1C97373300F2F0D5 /* Waste-50.png in Resources */,
@@ -358,7 +362,6 @@
 				55A145941C9728EB00F2F0D5 /* govicon.jpeg in Resources */,
 				55A1459A1C97369A00F2F0D5 /* Subway Filled-50.png in Resources */,
 				55A145BA1C978BC400F2F0D5 /* lemons.jpeg in Resources */,
-				55A1455B1C8F9C4E00F2F0D5 /* Main.storyboard in Resources */,
 				55A145931C9728EB00F2F0D5 /* trashicon.png in Resources */,
 				55A145961C97325400F2F0D5 /* settings-50.png in Resources */,
 				55A145A21C97380200F2F0D5 /* User Groups-50.png in Resources */,
@@ -448,10 +451,11 @@
 				553E0A791CBB46D900721FF7 /* FAQDetailViewController.swift in Sources */,
 				55A145581C8F9C4E00F2F0D5 /* ViewController.swift in Sources */,
 				55A145561C8F9C4E00F2F0D5 /* AppDelegate.swift in Sources */,
-				55A145881C8FB9AB00F2F0D5 /* AccountViewController.swift in Sources */,
 				55A145861C8FA96600F2F0D5 /* UserClass.swift in Sources */,
 				553E0A811CBF357900721FF7 /* MeetupDetailViewController.swift in Sources */,
 				553E0A7F1CBEE4AB00721FF7 /* MeetupViewController.swift in Sources */,
+				550CE8ED1CC075E9003CAD3D /* ZipcodeInfo.swift in Sources */,
+				550CE8EF1CC0A01F003CAD3D /* TrendingPlacesViewController.swift in Sources */,
 				55A145B61C97857C00F2F0D5 /* CommunityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,10 +492,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		55A145591C8F9C4E00F2F0D5 /* Main.storyboard */ = {
+		550CE8E71CC063FE003CAD3D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				55A1455A1C8F9C4E00F2F0D5 /* Base */,
+				550CE8E81CC063FE003CAD3D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

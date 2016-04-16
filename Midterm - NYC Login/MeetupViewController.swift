@@ -15,6 +15,8 @@ class MeetupViewController: UIViewController, UITableViewDataSource, UITableView
 
     @IBOutlet weak var tableView: UITableView!
     
+    let zip: String = ZipcodeInfo.getZipCode()!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         super.viewDidLoad()
@@ -23,7 +25,9 @@ class MeetupViewController: UIViewController, UITableViewDataSource, UITableView
         refreshControl = UIRefreshControl()
         refreshControl?.addTarget(self, action: "getData", forControlEvents: .ValueChanged)
         tableView.addSubview(refreshControl!)
-        getData("11201")
+        getData(zip)
+        
+        // unrecognized selector is the refresh control 
         
         let imageView = UIImageView(image: UIImage(named: "water.jpeg"))
         imageView.frame = view.bounds
@@ -43,6 +47,8 @@ class MeetupViewController: UIViewController, UITableViewDataSource, UITableView
     var serviceInfo : [JSON] = []
     let placeholderImage = UIImage(named: "User Groups-50.png")
     var refreshControl : UIRefreshControl?
+
+    
 
     
     func getData (zipcode: String) {

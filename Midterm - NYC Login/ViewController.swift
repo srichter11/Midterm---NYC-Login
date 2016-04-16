@@ -7,83 +7,50 @@
 //
 
 import UIKit
-import Firebase
-import Google
 
-class ViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate {
 
-    let ref = Firebase(url:"https://mynyc.firebaseio.com")
-    
-    var auth: FAuthData?
+class ViewController: UIViewController {
+
+@IBOutlet weak var nameTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        GIDSignIn.sharedInstance().delegate = self
-        GIDSignIn.sharedInstance().uiDelegate = self
-        GIDSignIn.sharedInstance().signInSilently()
+        
+        if let zipCode = ZipcodeInfo.getZipCode() {
+            nameTextField.text = zipCode
+        }
     }
 
-    @IBOutlet weak var currentValueLabel: UILabel!
-    @IBOutlet weak var currentLoggedInUser: UILabel!
-    @IBOutlet weak var nameTextField: UITextField!
     
-    @IBAction func authenticateWithGoogle(sender: AnyObject) {
-        GIDSignIn.sharedInstance().signIn()
+    func saveZip () {
+        if let zipcode = nameTextField.text {
+        ZipcodeInfo.saveZipCode(zipcode)
+        NSUserDefaults.standardUserDefaults().synchronize()
+
+        }
     }
     
-        // Implement the required GIDSignInDelegate methods
-    func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!,
-        withError error: NSError!) {
-            if (error == nil) {
-                // Auth with Firebase
-                ref.authWithOAuthProvider("google", token: user.authentication.accessToken, withCompletionBlock: { (error, authData) in
-                    self.auth = authData
-                   // self.currentLoggedInUser.text = authData.providerData["displayName"] as? String
-                    let uid = authData!.uid
-                    
-                    let ref = Firebase(url:"https://mynyc.firebaseio.com/users/\(uid)")
-                    ref.observeEventType(.Value, withBlock: {
-                        snapshot in
-                        self.currentValueLabel.text = "\(snapshot.value)"
-                    })
-                    
-                    
-                })
-            } else {
-                // Don't assert this error it is commonly returned as nil
-                print("\(error.localizedDescription)")
+    func displayAlert (alertString: String) {
+        let alert = UIAlertController(title: "Invalid", message: alertString, preferredStyle: UIAlertControllerStyle.Alert)
+        self.presentViewController(alert, animated: true, completion: nil)
+        alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+    }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "move" {
+            if let destinationVC = segue.destinationViewController as? UINavigationController {
+                
+                if let input = nameTextField.text {
+                   if nameTextField.text!.characters.count != 5 {
+                    displayAlert("Please enter a valid zipcode")
+                }
+                   else {
+                    saveZip()
+
+                    }
+                }
             }
-    }
-//    @IBAction func saveToFirebase() {
-//        let uid = auth!.uid
-//        
-//        let ref = Firebase(url:"https://mynyc.firebaseio.com/users/\(uid)")
-//        
-//        ref.setValue(nameTextField.text)
-//    }
-   
-    
-    
-
-   
-
-    
-//        @IBAction func signOut() {
-//            GIDSignIn.sharedInstance().signOut()
-//            ref.unauth()
-//            self.currentLoggedInUser.text = "Logged out"
-//        }
-    
-    
-
-    // Implement the required GIDSignInDelegate methods
-    // Unauth when disconnected from Google
-    func signIn(signIn: GIDSignIn!, didDisconnectWithUser user:GIDGoogleUser!,
-        withError error: NSError!) {
-            ref.unauth();
-            self.currentLoggedInUser.text = "Logged out"
-    }
-
-
+        }
 }
-
+}

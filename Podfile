@@ -9,4 +9,3 @@ target ‘Midterm - NYC Login’ do
 	pod 'Google/SignIn'
 end
 
-
